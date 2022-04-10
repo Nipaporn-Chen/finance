@@ -1,0 +1,24 @@
+- Inheritance is a process where one class inherits visible properties from anothter class. Parent child relationship. 
+- extends keyword is used in class declaration to inherit from another class. 
+- child class will extend all visible (depends on access modifiers of variables and methods).
+Access Modifers
+- public : accessible from everywhere
+- protected: accessbile within the same package
+- default : accessible within same package and in the subclass.
+- private : accessible in the same class only. 
+
+*** Java doesn't support multiple inheritance because of the Diamond problem. 
+
+*** If the child class wants to have its own implementation for methods defined in parent class, we can always overied these
+methods in the child class. 
+
+Rules of overrriding:
+- Method name and number, order, and type of arguments should be exactly the same as the parent's method.
+- Return type should be the same or covariant with the parent method. 
+- The access modifier should be the same or more visible than parent method. 
+- If exception declaration exists in the parent method, the child method can have the same type of exception declaration or
+a smaller type. 
+- *** final methods cannot be overridden. 
+
+*** You cannnot override a variable; you can only hide it. 
+

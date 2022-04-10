@@ -1,0 +1,43 @@
+package CodingAssignmentWeek5;
+
+public class CenteredAverage {
+	public static void main(String[] args) {
+		int[] a = new int[] {6, 4, 8, 12, 3};
+		int res = centeredAverage(a);
+		System.out.println(res);
+	}
+	public static int centeredAverage(int[] nums) {
+		int max = nums[0];
+		int min = nums[0];
+		int sum = 0;
+		int count = 0;
+		int maxCount = 0;
+	    int minCount = 0;
+		for(int i = 0; i < nums.length; i++) {			
+			if(min < nums[i]) {
+				min = nums[i];	
+			}
+			if(max > nums[i]) {
+				max = nums[i];				
+			}
+			
+			if(nums[i] == min && minCount == 0) {
+				minCount++;
+				continue;
+			} else if (nums[i] == max && maxCount == 0) {
+				maxCount++;
+				continue;
+			
+			} 
+			sum += nums[i];
+			count++;	
+			
+		}	
+		System.out.println(count);
+		System.out.println(sum);
+		return sum/count;
+		
+	}
+		
+	
+}

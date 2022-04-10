@@ -1,0 +1,33 @@
+public class Project {
+    public static void main(String[] args) {
+        int[] a = new int[] {1, 1, 5, 5, 10, 8, 7};
+        int res = centeredAverage(a); // 5
+
+        System.out.println(res);
+    }
+
+    public static int centeredAverage(int[] nums) {
+        int max = nums[0];
+        int min = nums[0];
+        int sum = 0;
+        int countNum = 0;
+        int minCount = 0;
+        int maxCount = 0;
+        for(int i = 0; i < nums.length; i++) {
+          if(min <= nums[i] && minCount == 0) {
+            min = nums[i];
+            minCount++;
+            continue;
+          }
+          if(max >= nums[i] && maxCount == 0) {
+            max = nums[i];
+            maxCount++;
+            continue;
+          }
+             countNum++;
+             sum += nums[i];
+          }
+          
+          return sum/countNum;
+    }
+}

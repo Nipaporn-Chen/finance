@@ -1,0 +1,53 @@
+- Inheritance is a process where one class inherits visible properties from anothter class. Parent child relationship. 
+- extends keyword is used in class declaration to inherit from another class. 
+- child class will extend all visible (depends on access modifiers of variables and methods).
+Access Modifers
+- public : accessible from everywhere
+- protected: accessbile within the same package
+- default : accessible within same package and in the subclass.
+- private : accessible in the same class only. 
+
+How many classes one class can extend at the same time?
+- Just one because java supports only single type inheritance.
+*** Java doesn't support multiple inheritance. 
+
+
+What's the difference between method overloading and method overriding?
+  - overloading is when we have methods with different type, number, or order of arguments with the same name in the same class.
+  - overridding when child class overrides parent class's methods. 
+
+Rules of overrriding:
+  - Method name and number, order, and type of arguments should be exactly the same as the parent's method.
+  - Return type should be the same or covariant with the parent method. 
+  - The access modifier should be the same or more visible than parent method. 
+  - If exception declaration exists in the parent method, the child method can have the same type of exception declaration or
+    a smaller type. 
+
+- *** final methods cannot be overridden. 
+
+*** You cannnot override a variable; you can only hide it. 
+
+*** If the child class wants to have its own implementation for methods defined in parent class, we can always overied these
+methods in the child class. 
+
+Can you override static methods?
+ - No, we cannot override static method(they will be hidden). 
+
+Can you override constructor?
+ - No. 
+
+What will happen if child class defines the same variable as parent class?
+  - parent class variables get hidden. 
+
+What are the two classes that every class will extend from ?
+  - There is No two classes. Every class will extend java.lang.Object.
+
+How to prevent class from being extended?
+  - make class final.
+
+How to prevent method from being overrieded?
+  - make method final.
+
+How to compare custom object from the same class?
+   1. We will override equals and hashCode methods.
+   2. And use it for our comparision.  

@@ -1,0 +1,39 @@
+Map is key value data structure
+	- the keys are unique in map.
+	- map doesn't extend Collection interface.
+	- map can have duplicate value but not duplicate key.(map's keys are unique) when we try to put existing key with new
+	value, it overrides the old elements value. 
+
+	How to iterate over the map?
+	- we can get all the keys by using keySet and iterate over the keys, once we have keys we can get correct values by using get(K) method
+	Ex. 
+	for(String variable's name : name.keySet()) {
+
+	}
+Map method
+	- get(K) it returns value by key
+	- remove(K) it removes element from the map by key
+	- containsKey(K) it find for a specific key.
+	- containValue(V) it find for a specific value.
+	- put(K) add new element, or override the old elements value. 
+	- .values() will return all values inside map as Collection 
+	  Collection<WrapperClass> variable name : map's name.values();
+	- .keySet() will return all key inside map as collection. 
+	  Set(WrapperClass) variable's name : map's name. keySet();
+
+HashMap - doesn't maintain insertion order
+
+HashTable 
+	- Hashtable is less popular(older) version of HashMap
+	HashMap VS HashTable
+	1. HashMap is not synocronized (not thread safe) and Hashtable is synchronized(thread safe)
+	2. HashMap allows one null key and multiple null values but Hashtable doesn't allow null keys and values
+
+LinkedHashMap
+	- does maintain insertion order
+	- LinkedHashMap allows one null key and multiple null values
+	- Unsynchronized
+TreeMap
+	- it keeps elements sorted by the key
+	- Unsynchronized
+	- No null keys and allows multiple null values. 

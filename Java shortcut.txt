@@ -1,0 +1,27 @@
+*
+	 * 1) Ctrl+ Shift X or Y to uppercase or lowercase;
+	 * 2) Alt Up and Down - moves all lines;
+	 * 3) Alt Shift Z - surround a code with various stuff;
+	 * 4) Main - ctrl Space;for, while, if, ;
+	 * 5) Geters and Setters(Right click> Source> Generate Getters and Setters;)  
+	 *    Alt+shift+S, then R;
+	 * 6) Create a constructor (Right Click > Source > Generate Constructor Using Fields )    
+	 *    Alt+Shift +S,then O;
+	 *     
+	 * 7) Format -ctrl +shift F  > makes your code look nice and clean;
+	 * 8) Ctrl + Shift O  > import all you need and delete if you not;
+	 * 9) Ctrl + /          >  comment highlighted area of code ; do this again and the comment  get undone .
+	 *    Ctrl + Shift + /  > /*
+	 *   
+	 * 10) Alt+ Shift + R  > REname Variable , method or class;
+	 * 11)
+	 * 12) Ctrl + l >  you can move to a specific line ;
+	 * 13) Ctrl + O   > find a particular method. If you have many of them it is helpfull;
+	 * 14) Ctrl + D  > delete Line
+	 * 15) Ctrl + Shift + R  > Open resource - we can find a specific file;
+	 * 16) Ctrl + F11 > run program;
+	 * 17) Ctrl + Shift + L  >  View all keyboard shortcuts;
+	 * 
+	 * 
+	 * 
+	 */

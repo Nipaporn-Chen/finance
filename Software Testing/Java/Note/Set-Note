@@ -1,0 +1,16 @@
+Set: 
+-> Set doesn't allow duplicate
+-> HashSet
+	   - it doesn't allow duplicates.
+	   - it doesn't maintain insertion order
+	-> LinkedHashSet
+	   - it doesn't allow duplicates.
+	   - it maintains insertion order.
+	-> TreeSet
+	   - it doesn't allow duplicates.
+	   - it keeps elements in sorted order.
+ 
+
+    How to remove dupplicates from String/Array/list?
+    - I can remove duplicates by using contains method.
+    - By using Set from collection framework because it doesn't allow duplicates.

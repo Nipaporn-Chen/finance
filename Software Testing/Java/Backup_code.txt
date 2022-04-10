@@ -1,0 +1,54 @@
+  ArrayList<Integer> square = new ArrayList<>();
+      for(int i = 0; i < nums.size(); i++) {
+        int s = 0;
+        s = nums.get(i) * nums.get(i); 
+        square.add(s);
+      }
+      return square;
+    }
+}
+
+str.add(strings + "*" )
+
+  ArrayList<String> str = new ArrayList<>();
+      	for(String string : strings) {
+        	str.add(string + "*");
+        }
+     	 return str;
+        }
+
+List<String> str = new ArrayList<>();
+      	
+      	for(int i = 0; i < strings.size(); i++) {
+          if(strings.get(i).length() >= 4) {
+            strings.remove(i);
+            
+          } else {
+            str.add(strings.get(i));
+       	 }
+        }
+      return str;
+        
+    }
+}
+
+ArrayList<String> revList = new ArrayList<>();
+		//String revList = "";
+		for(String str : list) {
+			
+			String revStr = "";
+			for(int j = str.length()-1; j >= 0; j--) {
+				revStr += str.charAt(j);
+			}
+			revList.add(revStr);
+		}
+		return revList;
+
+ ArrayList<String> str = new ArrayList<>();
+      	for(String string : strings) {
+        	str.add(string + "*");
+        }
+     	 return str;
+        }
+      
+    }

@@ -1,0 +1,22 @@
+What's Encapsulation in Java?
+ Data hiding(protecting) mechanism.
+
+How do you achieve encapsulation?
+ We achieve encapsulation by making instance variables private and by prividng prublic getters and setters. 
+
+------
+We should follow accepted coding style while providing getters and setters. 
+-------
+Why do we need to encapsulate?
+- By removing direct access from instance variables and providing getters and setters, 
+we have on layer where we can control what data can be assigned to objects properties.
+
+From whom we are hiding the data?
+- From the client code that will use our class. 
+
+Encapsulated classes(by getters and setters) referred as POJO(Plain Old Java Object).
+
+-----------
+Automatatically generate Getter and Setter
+
+right click --> source --> Generate Getters and Setters--> select -->Generate

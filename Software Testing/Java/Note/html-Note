@@ -1,0 +1,32 @@
+HTML - markup language to build web pages.
+
+	Browsers can open and read html pages.
+
+	web pages consist of html elements
+
+	<div></div> - html element
+	<br>        - html element
+	class="block" - attribute
+
+	<html>
+
+		<head>
+			<style>
+				div[id='123'] {
+					color: red;
+				}
+			</style>
+		</head>
+
+		<body>
+			<div class="block" name="myList" id="123">
+				<ul>
+					<li>Java</li>
+					<li>HTML</li>
+				</ul>
+			</div>
+
+			<div class="block" name="myList">Hello</div>
+		</body>
+
+	</html>

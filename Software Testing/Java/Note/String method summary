@@ -1,0 +1,51 @@
+tps://docs.oracle.com/javase/8/docs/api/java/lang/String.html
+
+length(); - it return the number of characters(return type is int)
+	
+	toUpperCase(); - makes string value to all upper cases and returns it (Stirng).
+
+	toLowerCase(); - makes string value to all lower cases and retunrs it (String).
+
+	String str = "apple";
+	str = str.toUpperCase();
+	System.out.println(str); // APPLE
+
+	indexOf(String) - return index position of passed string
+	indexOf(char) - returns index position of passed char
+
+	charAt(index) - returns char at specified index.
+	//            01234
+    String str = "apple";
+    char ch = str.charAt(4);
+    System.out.println(ch); // e
+
+    substring(start) - returns subtring of string based on indexes
+    - it will return the right side of the string starting(included) with start argument
+    //            01234
+    String str = "apple";
+    System.out.println(str.substring(2)); // ple
+
+    substring(start, end)
+    - it will return from start argument(included) till end argument(exluded).
+    //            01234
+    String str = "apple";
+    System.out.println(str.substring(2, 4)); // pl
+
+    replace(old, new) - it will replace the old values with new values.
+    String str = "apple";
+    str = str.replace("p", "a");
+    System.out.println(str); // aaale
+
+    equals() - we compare two String one content equality with this method. Return type is boolean.
+
+    String a = "abc";
+    String b = "abc";
+    if (a.equals(b)) {
+    	System.out.println("Same!");
+    }
+
+    contains(string) - it checks if string contains another string.
+    startsWith(string) - it checks if string starts with another string.
+    endsWith(string) - it checks if string ends with another string.
+    trim() - removes white spaces around the string.
+
